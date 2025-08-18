@@ -1,0 +1,11 @@
+.image {
+  border-radius: var(_sizes---image--image-radius);
+  object-fit: contain;
+  width: 100%;
+}
+
+.image.image_cover {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
