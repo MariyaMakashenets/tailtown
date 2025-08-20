@@ -1,6 +1,5 @@
 .header {
   margin-bottom: var(_sizes---gap--md-gap);
-  margin-bottom: var(_sizes---gap--md-gap);
   flex-flow: column;
   justify-content: flex-start;
   align-items: stretch;
@@ -15,9 +14,14 @@
 
 .header {
   margin-bottom: var(_sizes---gap--md-gap);
-  margin-bottom: var(_sizes---gap--md-gap);
   flex-flow: column;
   justify-content: flex-start;
   align-items: stretch;
   display: flex;
+}
+
+@media screen and (max-width: $bp-tablet) {
+.header {
+    margin-bottom: var(_sizes---spacing--2x);
+  }
 }

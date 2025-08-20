@@ -53,3 +53,19 @@
 .text-button.on-accent-tertiary, .text-button.on-accent-tertiary:hover, .text-button.on-accent-secondary, .text-button.on-accent-secondary:hover {
   color: inherit;
 }
+
+.button_label {
+  white-space: pre;
+}
+
+.w-button {
+  color: #fff;
+  line-height: inherit;
+  cursor: pointer;
+  background-color: #3898ec;
+  border: 0;
+  border-radius: 0;
+  padding: 9px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
