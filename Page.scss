@@ -1,12 +1,10 @@
-@import "scss/main";
-@import "scss/main1";
-
 @import "scss/utils/fonts";
 @import "scss/utils/variables";
 
 @import "scss/components/button";
 @import "scss/components/button_group";
 @import "scss/components/button_icon";
+@import "scss/components/dropdown";
 @import "scss/components/image";
 
 @import "scss/layout/footer";
@@ -15,5 +13,7 @@
 @import "scss/layout/nav";
 @import "scss/layout/section";
 
+@import "scss/main";
+@import "scss/main1";
 
 
