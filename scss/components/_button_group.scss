@@ -1,7 +1,7 @@
 .button-group {
-  margin-top: var(_sizes---spacing--2x);
-  grid-column-gap: var(_sizes---spacing--0-5x);
-  grid-row-gap: var(_sizes---spacing--0-5x);
+  margin-top: var(--spacing--2x);
+  grid-column-gap: var(--spacing--0-5x);
+  grid-row-gap: var(--spacing--0-5x);
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
@@ -25,7 +25,7 @@
   grid-column-gap: .5em;
   grid-row-gap: .5em;
   color: var(---text-link--link-primary);
-  font-size: var(_sizes---spacing--1x);
+  font-size: var(--spacing--1x);
   font-weight: var(_typography---h5-heading--h5-weight);
   flex: none;
   justify-content: flex-start;
@@ -42,7 +42,7 @@
 }
 
 .text-button.is-small {
-  font-size: var(_sizes---spacing--0-75x);
+  font-size: var(--spacing--0-75x);
 }
 
 .text-button.on-inverse {
@@ -75,4 +75,14 @@
 
 .text-button.on-accent-tertiary, .text-button.on-accent-tertiary:hover, .text-button.on-accent-secondary, .text-button.on-accent-secondary:hover {
   color: inherit;
+}
+
+@media screen {
+
+  .button-group {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+  }
 }

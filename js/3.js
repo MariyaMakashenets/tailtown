@@ -1256,9 +1256,9 @@
                     })
                 }
                 ,
-                (n = window.document.createElement("iframe")).src = "https://webflow.com/site/third-party-cookie-check.html",
-                n.style.display = "none",
-                n.sandbox = "allow-scripts allow-same-origin",
+                // (n = window.document.createElement("iframe")).src = "https://webflow.com/site/third-party-cookie-check.html",
+                // n.style.display = "none",
+                // n.sandbox = "allow-scripts allow-same-origin",
                 i = function(t) {
                     "WF_third_party_cookies_unsupported" === t.data ? (p(n, i),
                     e(!1)) : "WF_third_party_cookies_supported" === t.data && (p(n, i),
